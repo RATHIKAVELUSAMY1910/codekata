@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a , b , temp;
+    cout<<"enter the a value";
+    cout<<"enter the b value";
+    cin>>a>>b;
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+    temp = a;
+    a = b;
+    b = temp;
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    return 0;
+}
