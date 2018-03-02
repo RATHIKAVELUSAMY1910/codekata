@@ -7,7 +7,7 @@ int main( )
 	cout << "Enter a string: ";
 	cin.getline(str,80);
 	
-	int words = 0; 
+	int words = 1; 
 	
 	for(int i = 0; str[i] != '\0'; i++)
 	{
