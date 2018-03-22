@@ -1,8 +1,5 @@
-#include<iostream>
-using namespace std;
-int main()
 {
-    int n,k,a[60];
+    int n,k,a[60],j=0;
     cout<<"enter the n and k value"<<endl;
     cin>>n>>k;
     for(int i=0;i<n;i++)
